@@ -1,7 +1,9 @@
+import Hero from "./components/Hero Section/Hero";
+
 const Homepage = () => {
   return (
-    <div>
-      <h1>Homepage</h1>
+    <div className="">
+      <Hero />
     </div>
   );
 };
