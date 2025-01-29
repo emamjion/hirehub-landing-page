@@ -1,3 +1,9 @@
+import Hero from "./components/Hero Section/Hero";
+
+const Homepage = () => {
+  return (
+    <div className="">
+      <Hero />
 import { Button } from "@/components/ui/button";
 
 const Homepage = () => {
