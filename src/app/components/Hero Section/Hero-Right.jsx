@@ -3,14 +3,20 @@ import { Button } from "@/components/ui/button";
 
 const HeroRight = () => {
   return (
-    <div className="space-y-6 text-gray-900">
+    <div className="space-y-4 text-gray-900">
       <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-      <span className="text-gray-600">HireHub{" "}</span>
-        A recruiting platform that brings big ideas & {" "}
+        <span className="text-gray-600">HireHub, </span>A recruiting platform
+        that brings big ideas &{" "}
         <span className="text-gray-600">top talents</span>
       </h1>
       <p className="text-gray-600 text-lg">
-      Simplify your recruitment process with our intuitive and powerful Applicant Tracking System (ATS). 
+        Simplify your recruitment process with our intuitive and powerful ATS.
+      </p>
+      <p className="text-gray-600 text-base">
+        HireHub is the all-in-one hiring platform that helps you find, screen,
+        and hire the best candidates faster and more efficiently. Post jobs,
+        review applications, schedule interviews, and track your entire hiring
+        process in one place.{" "}
       </p>
       <div className="flex items-center space-x-6">
         <Button className="bg-gray-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-gray-700 transition duration-200">
@@ -22,7 +28,8 @@ const HeroRight = () => {
         </button> */}
       </div>
       <p className="text-gray-500 text-sm">
-        <span className="font-semibold">3,500+</span> candidates got their jobs from hirehub.co
+        <span className="font-semibold">3,500+</span> candidates got their jobs
+        from hirehub.co
       </p>
     </div>
   );
