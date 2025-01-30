@@ -4,9 +4,9 @@ const WhyChooseLeft = () => {
     <div>
       <h2 className="text-3xl font-bold mb-6">Why Choose HireHub?</h2>
       <div className="space-y-6">
-        <div className="flex items-center space-x-4">
-          <div className="p-3 bg-blue-100 rounded-full">
-            <Clock size={28} className="text-blue-600" />
+        <div className="flex space-x-3">
+          <div className="">
+            <Clock className="w-10 h-10" />
           </div>
           <div>
             <h4 className="text-lg font-semibold">Save Time & Resources</h4>
@@ -16,9 +16,9 @@ const WhyChooseLeft = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center space-x-4">
-          <div className="p-3 bg-blue-100 rounded-full">
-            <Star size={28} className="text-blue-600" />
+        <div className="flex space-x-3">
+          <div className="">
+            <Star className="w-10 h-10" />
           </div>
           <div>
             <h4 className="text-lg font-semibold">Improve Candidate Quality</h4>
@@ -27,9 +27,9 @@ const WhyChooseLeft = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center space-x-4">
-          <div className="p-3 bg-blue-100 rounded-full">
-            <Briefcase size={28} className="text-blue-600" />
+        <div className="flex space-x-3">
+          <div className="">
+            <Briefcase className="w-10 h-10" />
           </div>
           <div>
             <h4 className="text-lg font-semibold">Enhance Employer Branding</h4>
@@ -39,9 +39,9 @@ const WhyChooseLeft = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center space-x-4">
-          <div className="p-3 bg-blue-100 rounded-full">
-            <DollarSign size={28} className="text-blue-600" />
+        <div className="flex space-x-3">
+          <div className="">
+            <DollarSign className="w-10 h-10" />
           </div>
           <div>
             <h4 className="text-lg font-semibold">Reduce Costs</h4>
