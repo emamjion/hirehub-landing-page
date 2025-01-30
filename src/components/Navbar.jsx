@@ -1,8 +1,10 @@
 "use client";
 
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import hirehubLogo from "../../public/Hirehub_Logo.png";
 import { Button } from "./ui/button";
 
 const menus = [
@@ -33,7 +35,7 @@ const Navbar = () => {
         <nav className="w-full flex items-center justify-between">
           {/* Logo */}
           <Link href={"/"}>
-            <span className="text-2xl font-bold text-gray-900">HireHub</span>
+            <Image src={hirehubLogo} alt="logo" width={80} />
           </Link>
 
           {/* Desktop Menu */}
@@ -51,7 +53,10 @@ const Navbar = () => {
           </ul>
 
           {/* Signup Button (Desktop) */}
-          <Link href={"/signup"} className="hidden lg:flex">
+          <Link href={"/signup"} className="hidden lg:flex gap-2">
+            <Button className="py-2 px-4 rounded-lg bg-transparent border border-gray-600 text-gray-600 hover:text-white">
+              Signin
+            </Button>
             <Button className="bg-gray-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-gray-700 transition duration-200">
               Signup
             </Button>
@@ -97,6 +102,9 @@ const Navbar = () => {
             </li>
           ))}
           <Link href={"/signup"} onClick={() => setIsOpen(false)}>
+            <Button className="py-2 px-4 rounded-lg bg-transparent border border-gray-600 text-gray-600 hover:text-white mr-2 md:mr-0">
+              Signin
+            </Button>
             <Button className="bg-gray-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-gray-700 transition duration-200">
               Signup
             </Button>
