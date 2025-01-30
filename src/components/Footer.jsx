@@ -39,23 +39,23 @@ const Footer = () => {
           <h6 className="text-lg font-semibold mb-4">Company</h6>
           <ul className="space-y-2">
             <li>
-              <Link href="#" className="hover:text-gray-400">
+              <Link href="#" className="hover:underline">
                 About Us
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-400">
-                Contact
+              <Link href="#" className="hover:underline">
+                Contact Us
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-400">
-                Jobs
+              <Link href="#" className="hover:underline">
+                Blog
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-400">
-                Press Kit
+              <Link href="#" className="hover:underline">
+                Help Center
               </Link>
             </li>
           </ul>
@@ -66,18 +66,13 @@ const Footer = () => {
           <h6 className="text-lg font-semibold mb-4">Legal</h6>
           <ul className="space-y-2">
             <li>
-              <Link href="#" className="hover:text-gray-400">
-                Terms of Use
+              <Link href="#" className="hover:underline">
+                Terms of Service
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-400">
+              <Link href="#" className="hover:underline">
                 Privacy Policy
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className="hover:text-gray-400">
-                Cookie Policy
               </Link>
             </li>
           </ul>
