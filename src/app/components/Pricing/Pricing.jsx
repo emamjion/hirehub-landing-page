@@ -22,7 +22,7 @@ const pricingPlans = [
   },
   {
     title: "Standard",
-    price: "$20",
+    price: "$30",
     period: "per month/user",
     description: "Highly recommended for small organizations who seek to upgrade their teams & performance.",
     features: [
@@ -39,7 +39,7 @@ const pricingPlans = [
   },
   {
     title: "Enterprise",
-    price: "$10k",
+    price: "$5k",
     period: "per year",
     description: "Robust plan for larger organizations looking to have more control, priviledges & security.",
     features: [
@@ -60,7 +60,7 @@ const pricingPlans = [
 
 export default function PricingSection() {
   return (
-    <div className="py-10 px-4 md:px-12 lg:px-16 text-center">
+    <div className="py-10 px-4 md:px-12 lg:px-16 text-center" id="pricing">
       <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
       Choose the Plan That&apos;s Right for You
       </h2>
@@ -89,7 +89,7 @@ export default function PricingSection() {
                 <p className="text-gray-600 dark:text-gray-400">{plan.period}</p>
               </CardHeader>
               <p className="text-sm text-gray-700 dark:text-gray-300">{plan.description}</p>
-              <Button className="mt-4 w-full bg-gray-900 text-white hover:bg-gray-800">Select Plan</Button>
+              <Button className="mt-4 w-full bg-gray-900 text-white hover:!bg-gray-800 !cursor-pointer">Select Plan</Button>
               <ul className="mt-6 text-left space-y-2">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-center gap-2 text-gray-700 dark:text-gray-300 text-sm">

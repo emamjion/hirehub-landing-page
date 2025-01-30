@@ -68,6 +68,10 @@ export const theme = {
         "0%": { transform: "rotate(0deg)" },
         "100%": { transform: "rotate(360deg)" },
       },
+      marquee: {
+        "0%": { transform: "translateX(0%)" },
+        "100%": { transform: "translateX(-100%)" },
+      },
 
       "accordion-down": {
         from: {
@@ -89,6 +93,7 @@ export const theme = {
     animation: {
       "accordion-down": "accordion-down 0.2s ease-out",
       "accordion-up": "accordion-up 0.2s ease-out",
+      marquee: "marquee var(--duration, 20s) linear infinite",
     },
   },
 };
