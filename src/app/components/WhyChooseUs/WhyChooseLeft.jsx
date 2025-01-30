@@ -6,7 +6,7 @@ const WhyChooseLeft = () => {
       <div className="space-y-6">
         <div className="flex space-x-3">
           <div className="">
-            <Clock className="w-10 h-10" />
+            <Clock size={36} />
           </div>
           <div>
             <h4 className="text-lg font-semibold">Save Time & Resources</h4>
@@ -18,7 +18,7 @@ const WhyChooseLeft = () => {
         </div>
         <div className="flex space-x-3">
           <div className="">
-            <Star className="w-10 h-10" />
+            <Star size={36} />
           </div>
           <div>
             <h4 className="text-lg font-semibold">Improve Candidate Quality</h4>
@@ -29,7 +29,7 @@ const WhyChooseLeft = () => {
         </div>
         <div className="flex space-x-3">
           <div className="">
-            <Briefcase className="w-10 h-10" />
+            <Briefcase size={36} />
           </div>
           <div>
             <h4 className="text-lg font-semibold">Enhance Employer Branding</h4>
@@ -41,7 +41,7 @@ const WhyChooseLeft = () => {
         </div>
         <div className="flex space-x-3">
           <div className="">
-            <DollarSign className="w-10 h-10" />
+            <DollarSign size={36} />
           </div>
           <div>
             <h4 className="text-lg font-semibold">Reduce Costs</h4>
