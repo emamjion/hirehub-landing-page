@@ -1,3 +1,4 @@
+import { Blogs } from "./components/Blogs/Blogs";
 import CTA from "./components/CTA";
 import Hero from "./components/Hero Section/Hero";
 import HowItWorks from "./components/How-It-Works/HowItWorks";
@@ -13,6 +14,7 @@ const Homepage = () => {
       <HowItWorks />
       <WhyChooseHireHub />
       <PricingSection />
+      <Blogs />
       <CTA />
     </>
   );
