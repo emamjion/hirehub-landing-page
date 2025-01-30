@@ -13,3 +13,4 @@ const WhyChooseHireHub = () => {
 };
 
 export default WhyChooseHireHub;
+
