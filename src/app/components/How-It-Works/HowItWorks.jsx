@@ -44,7 +44,7 @@ const HowItWorks = () => {
       <div className="max-w-5xl mx-auto text-center mb-10">
         <h2 className="text-3xl font-bold text-primary">How It Works</h2>
       </div>
-      <div className="relative flex flex-col space-y-3 px-4 mx-20">
+      <div className="relative flex flex-col space-y-3 px-4 sm:mx-20">
         {steps.map((step, index) => (
           <motion.div
             key={index}

@@ -84,7 +84,7 @@ const ReviewCard = ({ img, reviewer, designation, username, comment, company }) 
 
 export function Blogs() {
   return (
-    <section className="py-10 px-4" id="reviews">
+    <section className="py-10 px-4" id="blog">
       <div className="max-w-5xl mx-auto text-center mb-10">
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
           Employee & Client Reviews
