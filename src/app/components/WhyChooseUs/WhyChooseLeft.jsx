@@ -2,7 +2,7 @@ import { Briefcase, Clock, DollarSign, Star } from "lucide-react";
 const WhyChooseLeft = () => {
   return (
     <div>
-      <h2 className="text-3xl font-bold mb-6">Why Choose HireHub?</h2>
+      <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center md:text-start">Why Choose HireHub?</h2>
       <div className="space-y-6">
         <div className="flex space-x-3">
           <div className="">

@@ -8,31 +8,31 @@ const steps = [
     number: "01",
     title: "Create Profile",
     description: "Set up your company profile and job requirements",
-    icon: <User className="w-8 h-8 text-primary" />,
+    icon: <User className="w-6 sm:w-8 h-6 sm:h-8 text-primary" />,
     bgColor: "bg-indigo-500",
-    width: "w-2/5",
+    width: "w-3/6 sm:w-2/5",
   },
   {
     number: "02",
     title: "Post Job",
     description: "Share your job opening with our global talent pool",
-    icon: <Briefcase className="w-8 h-8 text-primary" />,
+    icon: <Briefcase className="w-6 sm:w-8 h-6 sm:h-8 text-primary" />,
     bgColor: "bg-emerald-500",
-    width: "w-3/5",
+    width: "w-4/6 sm:w-3/5",
   },
   {
     number: "03",
     title: "Review Candidates",
     description: "Evaluate pre-screened candidates that match your needs",
-    icon: <Users className="w-8 h-8 text-primary" />,
+    icon: <Users className="w-6 sm:w-8 h-6 sm:h-8 text-primary" />,
     bgColor: "bg-violet-500",
-    width: "w-4/5",
+    width: "w-5/6 sm:w-4/5",
   },
   {
     number: "04",
     title: "Hire",
     description: "Select and hire the perfect candidate for your team",
-    icon: <CheckCircle className="w-8 h-8 text-primary" />,
+    icon: <CheckCircle className="w-6 sm:w-8 h-6 sm:h-8 text-primary" />,
     bgColor: "bg-teal-500",
     width: "w-full",
   },
@@ -40,9 +40,9 @@ const steps = [
 
 const HowItWorks = () => {
   return (
-    <section className="py-10">
+    <section className="py-8 sm:py-10">
       <div className="max-w-5xl mx-auto text-center mb-10">
-        <h2 className="text-3xl font-bold text-primary">How It Works</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold text-primary">How It Works</h2>
       </div>
       <div className="relative flex flex-col space-y-3 px-4 sm:mx-20">
         {steps.map((step, index) => (
@@ -53,16 +53,16 @@ const HowItWorks = () => {
             transition={{ delay: index * 0.5 }}
             className={`relative flex items-center ${step.width}`}
           >
-            {/* Step Number and Text */}
-            <div className={`flex-1 py-3 px-6 text-white font-semibold ${step.bgColor} text-lg rounded-r-lg shadow-lg`}> 
-              <span className="text-lg font-bold mr-4">{step.number}</span>
+            <div
+              className={`flex-1 py-3 px-4 sm:px-6 text-white font-semibold ${step.bgColor} text-base sm:text-lg rounded-r-lg shadow-lg`}
+            >
+              <span className="text-base sm:text-lg font-bold mr-2 sm:mr-4">{step.number}</span>
               {step.title}
             </div>
-            
-            {/* Icon */}
-            <div className="-ml-8 flex items-center justify-center w-16 h-16 bg-white shadow-lg border-2 rounded-xl transform rotate-45">
-            <div className="flex items-center justify-center w-12 h-12 bg-white shadow-lg border-2 rounded-xl transform">
-            <div className="transform -rotate-45">{step.icon}</div>
+
+            <div className="-ml-8 flex items-center justify-center w-12 sm:w-16 h-12 sm:h-16 bg-white shadow-lg border-2 rounded-lg transform rotate-45">
+              <div className="flex items-center justify-center w-8 sm:w-12 h-8 sm:h-12 bg-white shadow-lg border-2 rounded-lg transform">
+                <div className="transform -rotate-45">{step.icon}</div>
               </div>
             </div>
           </motion.div>

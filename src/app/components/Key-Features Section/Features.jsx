@@ -4,7 +4,7 @@ import { Briefcase, Users, Calendar, BarChart } from "lucide-react";
 const features = [
   {
     title: "Effortless Job Posting",
-    icon: <Briefcase className="w-10 h-10 text-primary" />,
+    icon: <Briefcase className="w-8 sm:w-10 h-8 sm:h-10 text-primary" />,
     details: [
       "Post unlimited jobs with the Pro plan.",
       "Easily create and publish job postings with just a few clicks.",
@@ -14,7 +14,7 @@ const features = [
   },
   {
     title: "Powerful Candidate Screening",
-    icon: <Users className="w-10 h-10 text-primary" />,
+    icon: <Users className="w-8 sm:w-10 h-8 sm:h-10 text-primary" />,
     details: [
       "Download applicant CVs with ease.",
       "Quickly review resumes.",
@@ -24,7 +24,7 @@ const features = [
   },
   {
     title: "Streamlined Interview Scheduling",
-    icon: <Calendar className="w-10 h-10 text-primary" />,
+    icon: <Calendar className="w-8 sm:w-10 h-8 sm:h-10 text-primary" />,
     details: [
       "Schedule and manage interviews with ease.",
       "Send automated interview reminders to candidates.",
@@ -33,7 +33,7 @@ const features = [
   },
   {
     title: "Data-Driven Insights",
-    icon: <BarChart className="w-10 h-10 text-primary" />,
+    icon: <BarChart className="w-8 sm:w-10 h-8 sm:h-10 text-primary" />,
     details: [
       "Advanced analytics and reporting features available.",
       "Track key recruitment metrics, such as time-to-hire and cost-per-hire.",
@@ -44,14 +44,14 @@ const features = [
 
 const Features = () => {
   return (
-    <section className="py-10" id="features">
-      <div className="max-w-5xl mx-auto text-center mb-10">
-        <h2 className="text-3xl font-bold text-primary">Key Features</h2>
+    <section className="py-8 sm:py-10" id="features">
+      <div className="max-w-5xl mx-auto text-center mb-6 md:mb-10">
+        <h2 className="text-2xl sm:text-3xl font-bold text-primary">Key Features</h2>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
         {features.map((feature, index) => (
           <Card key={index} className="shadow-md border border-border rounded-xl bg-background">
-            <CardHeader className="flex flex-row items-center gap-3">
+            <CardHeader className="flex flex-row items-center gap-3 ">
               {feature.icon}
               <CardTitle className="text-base font-semibold">{feature.title}</CardTitle>
             </CardHeader>

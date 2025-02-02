@@ -60,14 +60,14 @@ const pricingPlans = [
 
 export default function PricingSection() {
   return (
-    <div className="py-10 px-4 md:px-12 lg:px-16 text-center" id="pricing">
-      <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
+    <div className="py-8 sm:py-10 px-4 md:px-12 lg:px-16 text-center" id="pricing">
+      <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">
       Choose the Plan That&apos;s Right for You
       </h2>
       <p className="mt-2 text-gray-600 dark:text-gray-400 max-w-3xl mx-auto text-sm md:text-base">
         Discover a variety of our advanced features. Free, Standard and Enterprize for individuals.
       </p>
-      <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {pricingPlans.map((plan, index) => (
           <Card
             key={index}
@@ -93,7 +93,7 @@ export default function PricingSection() {
               <ul className="mt-6 text-left space-y-2">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-center gap-2 text-gray-700 dark:text-gray-300 text-sm">
-                    <Check className="w-4 h-4 text-green-500" /> {feature}
+                    <Check className="w-4 h-4 text-emerald-500" /> {feature}
                   </li>
                 ))}
               </ul>
