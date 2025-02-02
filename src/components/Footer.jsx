@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
           <div className="mt-3 flex items-center gap-4">
             {/* facebook */}
-            <span>
+            <Link href={"www.facebook.com"}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 36 36"
@@ -36,10 +36,10 @@ const Footer = () => {
                   d="m25 23 .8-5H21v-3.5c0-1.4.5-2.5 2.7-2.5H26V7.4c-1.3-.2-2.7-.4-4-.4-4.1 0-7 2.5-7 7v4h-4.5v5H15v12.7c1 .2 2 .3 3 .3s2-.1 3-.3V23h4z"
                 />
               </svg>
-            </span>
+            </Link>
 
             {/* Twitter */}
-            <span>
+            <Link href={"www.twitter.com"}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="1.3em"
@@ -52,8 +52,10 @@ const Footer = () => {
                   d="M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z"
                 />
               </svg>
-            </span>
-            <span>
+            </Link>
+
+            {/* Linkedin */}
+            <Link href={"www.linkedin.com"}>
               <svg
                 width="1.3em"
                 height="1.3em"
@@ -66,7 +68,7 @@ const Footer = () => {
                   fill="#0A66C2"
                 />
               </svg>
-            </span>
+            </Link>
           </div>
         </div>
 
