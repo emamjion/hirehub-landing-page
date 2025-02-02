@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 const CTA = () => {
   return (
     <section className="relative h-[300px] flex items-center justify-center text-center text-white">
-      {/* Background Image with Parallax Effect */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-fixed"
         style={{

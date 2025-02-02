@@ -6,7 +6,7 @@ import logo from "../../public/Hirehub_Logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 py-10 px-5 md:px-10">
+    <footer className="bg-gray-100 py-8 sm:py-10 px-5 md:px-10">
       <div className="container mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
         {/* Services Section */}
         <div>
