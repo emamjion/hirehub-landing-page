@@ -11,9 +11,9 @@ const Footer = () => {
         {/* Services Section */}
         <div>
           <Image src={logo} alt="logo" width={100} />
-          <p className="mt-3 text-[#4b5563]">
+          {/* <p className="mt-3 text-[#4b5563]">
             HireHub, A recruiting platform that brings top talents
-          </p>
+          </p> */}
           <div className="mt-3 flex items-center gap-4">
             {/* facebook */}
             <Link href={"www.facebook.com"}>
