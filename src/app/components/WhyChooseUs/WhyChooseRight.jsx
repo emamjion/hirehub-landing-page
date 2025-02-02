@@ -9,7 +9,7 @@ const WhyChooseRight = () => {
         alt="Why Choose Us"
         width={360}
         height={280}
-        className="rounded-lg w-full"
+        className="rounded-lg w-full p-5 md:p-0"
       />
       {/* <div className="absolute top-10 right-10 bg-white shadow-lg p-4 rounded-lg flex items-center space-x-3">
                     <div className="text-blue-600 text-2xl font-bold">89%</div>

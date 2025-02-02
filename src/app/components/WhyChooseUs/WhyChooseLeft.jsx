@@ -6,34 +6,34 @@ const WhyChooseLeft = () => {
       <div className="space-y-6">
         <div className="flex space-x-3">
           <div className="">
-            <Clock size={36} />
+            <Clock className="h-8 md:h-10 w-8 md:w-10" />
           </div>
           <div>
-            <h4 className="text-lg font-semibold">Save Time & Resources</h4>
-            <p className="text-gray-600">
+            <h4 className="text-base md:text-lg font-semibold">Save Time & Resources</h4>
+            <p className="text-sm md:text-base text-gray-600">
               Automate tasks, streamline workflows, and reduce time spent on
               manual processes.
             </p>
           </div>
         </div>
         <div className="flex space-x-3">
-          <div className="">
-            <Star size={36} />
-          </div>
+          <span>
+            <Star className="h-8 md:h-10 w-8 md:w-10" />
+          </span>
           <div>
-            <h4 className="text-lg font-semibold">Improve Candidate Quality</h4>
-            <p className="text-gray-600">
+            <h4 className="text-base md:text-lg font-semibold">Improve Candidate Quality</h4>
+            <p className="text-gray-600 text-sm md:text-base">
               Find and hire the best talent more effectively.
             </p>
           </div>
         </div>
         <div className="flex space-x-3">
           <div className="">
-            <Briefcase size={36} />
+            <Briefcase className="h-8 md:h-10 w-8 md:w-10" />
           </div>
           <div>
-            <h4 className="text-lg font-semibold">Enhance Employer Branding</h4>
-            <p className="text-gray-600">
+            <h4 className="text-base md:text-lg font-semibold">Enhance Employer Branding</h4>
+            <p className="text-gray-600 text-sm md:text-base">
               Attract top talent with a professional and user-friendly hiring
               platform.
             </p>
@@ -41,11 +41,11 @@ const WhyChooseLeft = () => {
         </div>
         <div className="flex space-x-3">
           <div className="">
-            <DollarSign size={36} />
+            <DollarSign className="h-8 md:h-10 w-8 md:w-10" />
           </div>
           <div>
-            <h4 className="text-lg font-semibold">Reduce Costs</h4>
-            <p className="text-gray-600">
+            <h4 className="text-base md:text-lg font-semibold">Reduce Costs</h4>
+            <p className="text-gray-600 text-sm md:text-base">
               Lower your recruitment costs by streamlining your hiring process.
             </p>
           </div>
