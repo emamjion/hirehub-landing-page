@@ -11,6 +11,7 @@ const Slider = dynamic(() => import("react-slick").then((mod) => mod.default), {
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import HeroImage from "./HeroImage";
 
 const HeroLeft = () => {
   const images = [
@@ -52,6 +53,7 @@ const HeroLeft = () => {
           ))}
         </Slider>
       </div>
+      <HeroImage />
     </div>
   );
 };
