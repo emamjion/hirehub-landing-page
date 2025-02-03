@@ -4,7 +4,7 @@ import { BarChart, Briefcase, Calendar, Users } from "lucide-react";
 const features = [
   {
     title: "Effortless Job Posting",
-    icon: <Briefcase className="w-8 sm:w-10 h-8 sm:h-10 text-slate-500" />,
+    icon: <Briefcase className="w-8 sm:w-10 h-8 sm:h-10 text-slate-600" />,
     details: [
       "Post unlimited jobs with the Pro plan.",
       "Easily create and publish job postings with just a few clicks.",
@@ -14,7 +14,7 @@ const features = [
   },
   {
     title: "Powerful Candidate Screening",
-    icon: <Users className="w-8 sm:w-10 h-8 sm:h-10 text-slate-500" />,
+    icon: <Users className="w-8 sm:w-10 h-8 sm:h-10 text-slate-600" />,
     details: [
       "Download applicant CVs with ease.",
       "Quickly review resumes.",
@@ -24,7 +24,7 @@ const features = [
   },
   {
     title: "Streamlined Interview Scheduling",
-    icon: <Calendar className="w-8 sm:w-10 h-8 sm:h-10 text-slate-500" />,
+    icon: <Calendar className="w-8 sm:w-10 h-8 sm:h-10 text-slate-600" />,
     details: [
       "Schedule and manage interviews with ease.",
       "Send automated interview reminders to candidates.",
@@ -33,7 +33,7 @@ const features = [
   },
   {
     title: "Data-Driven Insights",
-    icon: <BarChart className="w-8 sm:w-10 h-8 sm:h-10 text-slate-500" />,
+    icon: <BarChart className="w-8 sm:w-10 h-8 sm:h-10 text-slate-600" />,
     details: [
       "Advanced analytics and reporting features available.",
       "Track key recruitment metrics, such as time-to-hire and cost-per-hire.",

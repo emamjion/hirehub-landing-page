@@ -89,7 +89,7 @@ export default function PricingSection() {
                 <p className="text-gray-600 dark:text-gray-400">{plan.period}</p>
               </CardHeader>
               <p className="text-sm text-gray-700 dark:text-gray-300">{plan.description}</p>
-              <Button className="mt-4 w-full bg-gray-900 text-white hover:!bg-gray-800 !cursor-pointer">Select Plan</Button>
+              <Button className="mt-4 w-full bg-slate-800 text-white hover:!bg-gray-800 !cursor-pointer">Select Plan</Button>
               <ul className="mt-6 text-left space-y-2">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-center gap-2 text-gray-700 dark:text-gray-300 text-sm">
