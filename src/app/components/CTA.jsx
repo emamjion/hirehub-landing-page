@@ -23,7 +23,7 @@ const CTA = () => {
         <p className="text-base mb-6 text-gray-200">
           Join HireHub and take your hiring process to the next level.
         </p>
-        <Button className="bg-gray-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-gray-700 transition duration-200">
+        <Button className="bg-slate-200 text-black font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-slate-300 transition duration-200">
           Try HireHub Free
         </Button>
       </div>
