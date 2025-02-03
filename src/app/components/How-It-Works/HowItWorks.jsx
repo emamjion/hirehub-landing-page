@@ -9,7 +9,7 @@ const steps = [
     title: "Create Profile",
     description: "Set up your company profile and job requirements",
     icon: <User className="w-6 sm:w-8 h-6 sm:h-8 text-primary" />,
-    bgColor: "bg-indigo-500",
+    bgColor: "bg-teal-600",
     width: "w-3/6 sm:w-2/5",
   },
   {
@@ -17,7 +17,7 @@ const steps = [
     title: "Post Job",
     description: "Share your job opening with our global talent pool",
     icon: <Briefcase className="w-6 sm:w-8 h-6 sm:h-8 text-primary" />,
-    bgColor: "bg-emerald-500",
+    bgColor: "bg-slate-500",
     width: "w-4/6 sm:w-3/5",
   },
   {
@@ -25,7 +25,7 @@ const steps = [
     title: "Review Candidates",
     description: "Evaluate pre-screened candidates that match your needs",
     icon: <Users className="w-6 sm:w-8 h-6 sm:h-8 text-primary" />,
-    bgColor: "bg-violet-500",
+    bgColor: "bg-teal-600",
     width: "w-5/6 sm:w-4/5",
   },
   {
@@ -33,7 +33,7 @@ const steps = [
     title: "Hire",
     description: "Select and hire the perfect candidate for your team",
     icon: <CheckCircle className="w-6 sm:w-8 h-6 sm:h-8 text-primary" />,
-    bgColor: "bg-teal-500",
+    bgColor: "bg-slate-500",
     width: "w-full",
   },
 ];
