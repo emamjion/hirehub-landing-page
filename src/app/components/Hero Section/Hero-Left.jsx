@@ -1,24 +1,17 @@
 "use client";
 
-import React from "react";
-import Image from "next/image";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 
 const Slider = dynamic(() => import("react-slick").then((mod) => mod.default), {
   ssr: false,
 });
 
-
-import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import HeroImage from "./HeroImage";
+import "slick-carousel/slick/slick.css";
 
 const HeroLeft = () => {
-  const images = [
-    "/hero2.png",
-    "/hero2.png",
-    "/hero2.png",
-  ];
+  const images = ["/hero2.png", "/hero2.png", "/hero2.png"];
 
   const settings = {
     dots: false,
