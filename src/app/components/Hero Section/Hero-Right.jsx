@@ -4,10 +4,12 @@ import { Button } from "@/components/ui/button";
 const HeroRight = () => {
   return (
     <div className="space-y-4 text-gray-900">
-      <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-        <span className="text-white">HireHub, </span>A recruiting platform
+      <h1 className="text-3xl md:text-5xl font-bold text-gray-900">
+        {/* <span className="text-white">HireHub, </span>A recruiting platform
         that brings {" "}
-        <span className="text-white">top talents</span>
+        <span className="text-white">top talents</span> */}
+        <span>Hire Top Talent with </span>
+        <span className="text-white">HireHub</span>
       </h1>
       <p className="text-gray-100 text-lg">
         Simplify your recruitment process with our intuitive and powerful ATS.
