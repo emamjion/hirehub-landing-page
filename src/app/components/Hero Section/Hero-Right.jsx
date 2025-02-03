@@ -5,14 +5,14 @@ const HeroRight = () => {
   return (
     <div className="space-y-4 text-gray-900">
       <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-        <span className="text-gray-600">HireHub, </span>A recruiting platform
+        <span className="text-white">HireHub, </span>A recruiting platform
         that brings {" "}
-        <span className="text-gray-600">top talents</span>
+        <span className="text-white">top talents</span>
       </h1>
-      <p className="text-gray-600 text-lg">
+      <p className="text-gray-100 text-lg">
         Simplify your recruitment process with our intuitive and powerful ATS.
       </p>
-      <p className="text-gray-600 text-[15px]">
+      <p className="text-gray-100 text-[15px]">
         HireHub is the all-in-one hiring platform that helps you find, screen,
         and hire the best candidates faster and more efficiently. Post jobs,
         review applications, schedule interviews, and track your entire hiring
@@ -23,7 +23,7 @@ const HeroRight = () => {
           Get Started
         </Button>
       </div>
-      <p className="text-gray-500 text-sm">
+      <p className="text-gray-100 text-sm">
         <span className="font-semibold">3,500+</span> candidates got their jobs
         from hirehub.com
       </p>

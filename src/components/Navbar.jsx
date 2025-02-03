@@ -44,7 +44,7 @@ const Navbar = () => {
               <li key={index}>
                 <Link
                   href={menu.path}
-                  className="text-gray-700 hover:text-gray-900 transition duration-200"
+                  className="text-gray-800 hover:text-gray-900 transition duration-200"
                 >
                   {menu.name}
                 </Link>
