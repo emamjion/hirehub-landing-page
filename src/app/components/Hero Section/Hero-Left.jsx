@@ -53,7 +53,6 @@ const HeroLeft = () => {
           ))}
         </Slider>
       </div>
-      <HeroImage />
     </div>
   );
 };
