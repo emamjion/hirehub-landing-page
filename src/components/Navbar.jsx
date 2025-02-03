@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        isSticky ? "bg-white shadow-md py-1.5" : "bg-transparent py-4"
+        isSticky ? "bg-white backdrop-blur-2xl shadow-md py-1.5" : "bg-transparent py-1.5"
       }`}
     >
       <div className="container mx-auto px-6 md:px-16">
@@ -39,12 +39,12 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Menu */}
-          <ul className="hidden md:flex items-center gap-6 lg:gap-8">
+          <ul className="hidden text-sm md:flex items-center gap-6 lg:gap-8">
             {menus.map((menu, index) => (
               <li key={index}>
                 <Link
                   href={menu.path}
-                  className="text-gray-800 hover:text-gray-900 transition duration-200"
+                  className="text-gray-700 hover:text-gray-900 transition duration-200"
                 >
                   {menu.name}
                 </Link>
@@ -52,13 +52,13 @@ const Navbar = () => {
             ))}
             {/* Signup Button (Desktop) */}
             <div className="flex items-center gap-2">
-              <Link href={"/signup"} className="hidden lg:flex gap-2">
-                <Button className="py-2 px-4 rounded-lg bg-transparent border border-slate-700 text-slate-700 hover:text-white hover:bg-slate-800">
+              <Link href={"/login"} className="hidden lg:flex gap-2">
+                <Button size="sm" className="py-2 px-4 rounded-lg bg-transparent border border-slate-700 text-slate-700 hover:text-white hover:bg-slate-800">
                   Signin
                 </Button>
               </Link>
-              <Link href={"/signin"}>
-                <Button className="bg-slate-700 text-white py-2 px-4 rounded-lg shadow-md hover:bg-slate-800 transition duration-200">
+              <Link href={"/signup"}>
+                <Button size="sm" className="bg-slate-700 text-white py-2 px-4 rounded-lg shadow-md hover:bg-slate-800 transition duration-200">
                   Signup
                 </Button>
               </Link>

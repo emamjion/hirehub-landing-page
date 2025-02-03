@@ -87,7 +87,7 @@ export function Blogs() {
     <section className="py-8 sm:py-10 px-4" id="blog">
       <div className="max-w-5xl mx-auto text-center mb-6 md:mb-10">
         <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">
-          Employee & Client Reviews
+          Our Client Reviews
         </h2>
       </div>
       <div className="relative flex w-full flex-col items-center justify-center rounded-lg overflow-hidden">

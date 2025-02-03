@@ -54,7 +54,7 @@ const Features = () => {
         {features.map((feature, index) => (
           <Card
             key={index}
-            className="shadow-md border border-border rounded-xl bg-background"
+            className="shadow-md hover:shadow-xl hover:scale-105 transition-all duration-200 border border-border rounded-xl bg-background"
           >
             <CardHeader className="flex flex-row items-center gap-3 ">
               {feature.icon}
