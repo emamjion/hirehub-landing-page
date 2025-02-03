@@ -74,7 +74,7 @@ export default function PricingSection() {
             className={`relative p-6 pt-2 rounded-xl bg-gradient-to-b ${plan.gradient} shadow-lg overflow-hidden`}
           >
             {plan.badge && (
-              <span className="absolute top-2 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white text-xs font-semibold px-3 py-1 rounded-full">
+              <span className="absolute top-2 left-1/2 transform -translate-x-1/2 bg-slate-800 text-white text-xs font-semibold px-3 py-1 rounded-full">
                 {plan.badge}
               </span>
             )}

@@ -6,7 +6,7 @@ const WhyChooseLeft = () => {
         Why Choose HireHub?
       </h2>
       <div className="space-y-6">
-        <div className="flex space-x-3">
+        <div className="flex space-x-3 items-center">
           <div className="">
             <Clock className="w-6 sm:w-8 h-6 sm:h-8 text-slate-600" />
           </div>
@@ -20,7 +20,7 @@ const WhyChooseLeft = () => {
             </p>
           </div>
         </div>
-        <div className="flex space-x-3">
+        <div className="flex space-x-3 items-center">
           <span>
             <Star className="w-6 sm:w-8 h-6 sm:h-8 text-slate-600" />
           </span>
@@ -33,7 +33,7 @@ const WhyChooseLeft = () => {
             </p>
           </div>
         </div>
-        <div className="flex space-x-3">
+        <div className="flex space-x-3 items-center">
           <div className="">
             <Briefcase className="w-6 sm:w-8 h-6 sm:h-8 text-slate-600" />
           </div>
@@ -47,7 +47,7 @@ const WhyChooseLeft = () => {
             </p>
           </div>
         </div>
-        <div className="flex space-x-3">
+        <div className="flex space-x-3 items-center">
           <div className="">
             <DollarSign className="w-6 sm:w-8 h-6 sm:h-8 text-slate-600" />
           </div>
