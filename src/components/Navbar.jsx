@@ -50,17 +50,20 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
+            {/* Signup Button (Desktop) */}
+            <div className="flex items-center gap-2">
+              <Link href={"/signup"} className="hidden lg:flex gap-2">
+                <Button className="py-2 px-4 rounded-lg bg-transparent border border-gray-600 text-gray-600 hover:text-white hover:bg-gray-700">
+                  Signin
+                </Button>
+              </Link>
+              <Link href={"/signin"}>
+                <Button className="bg-gray-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-gray-700 transition duration-200">
+                  Signup
+                </Button>
+              </Link>
+            </div>
           </ul>
-
-          {/* Signup Button (Desktop) */}
-          <Link href={"/signup"} className="hidden lg:flex gap-2">
-            <Button className="py-2 px-4 rounded-lg bg-transparent border border-gray-600 text-gray-600 hover:text-white hover:bg-gray-700">
-              Signin
-            </Button>
-            <Button className="bg-gray-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-gray-700 transition duration-200">
-              Signup
-            </Button>
-          </Link>
 
           {/* Mobile Menu Button */}
           <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)}>
@@ -116,6 +119,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-
