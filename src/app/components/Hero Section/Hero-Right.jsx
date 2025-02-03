@@ -21,14 +21,14 @@ const HeroRight = () => {
         process in one place.{" "}
       </p>
       <div className="flex items-center space-x-6">
-        <Button className="bg-gray-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-gray-700 transition duration-200">
+        <Button className="bg-slate-200 text-black font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-slate-300 transition duration-200">
           Get Started
         </Button>
       </div>
-      <p className="text-gray-100 text-sm">
+      {/* <p className="text-gray-100 text-sm">
         <span className="font-semibold">3,500+</span> candidates got their jobs
         from hirehub.com
-      </p>
+      </p> */}
     </div>
   );
 };
